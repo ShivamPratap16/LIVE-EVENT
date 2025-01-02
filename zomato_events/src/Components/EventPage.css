@@ -1,0 +1,168 @@
+.event-page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+}
+
+.header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 14px 82px;
+}
+
+.header nav a {
+  color: #ccc;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.header nav span {
+  color: white;
+}
+
+.content {
+  display: flex;
+  margin: 70px;
+  gap: 20px; /* Add gap between elements */
+}
+
+.poster-image {
+  flex: 1;
+  max-width: 50%;
+  border-radius: 10px;
+  margin-left: 121px;
+  margin-bottom: 4px;
+}
+
+.details {
+  flex: 2;
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+  height: 615px;
+}
+
+.details h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 38px;
+}
+
+.details .tagline {
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #8c8888;
+}
+
+.event-info p {
+  margin: 10px 0;
+  color: #333;
+}
+.pricing-book-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.pricing {
+  margin: 20px 0;
+  border-color: #333;
+  border-radius: 10px;
+  padding: 1px;
+  padding-left: 10px;
+  background-color: rgb(148, 175, 175);
+  
+  
+}
+.pricing {
+  margin-right: 20px;
+}
+.pricing p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-right: 500px;
+}
+
+.book-button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  /* margin-top: 6px; */
+   ;
+   margin-left: -120px;
+   
+}
+.pricing-book-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.book-button:hover {
+  background-color: #d81b60;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+.about h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.7rem;
+}
+
+.about p {
+  line-height: 1.6;
+  color: #141313;
+  background-color: rgb(217, 228, 228);
+  border-radius: 5px;
+  padding: auto;
+  padding-left: 3px;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.toggle-button {
+  background-color: #f0f0f0;
+  color: rgb(236, 13, 13);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.scroll-content-container {
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 20px auto; /* Center the container */
+}
+
+.scroll-content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  color: #ccc;
+  /* margin-top: -171px; */
+  margin-left: 57px;
+}
+
+.scroll-content.visible {
+  opacity: 1;
+  max-height: 500px; /* Adjust as needed */
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}

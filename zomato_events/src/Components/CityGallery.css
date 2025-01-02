@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+  }
+  
+  .gallery {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gtitle {
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-left: 173px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(305px, 0fr));
+    gap: -8px;
+    justify-content: center;
+  }
+  
+  .city-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .city-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .city-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .city-card p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .selected-city {
+    margin-top: 30px;
+  }
+  
+  .selected-city h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .selected-city img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+  }
+  

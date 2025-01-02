@@ -1,0 +1,109 @@
+.event-header {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.event-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.city-logo {
+  width: 20px; /* Adjust the size as needed */
+  height: 20px;
+  margin-right: 5px;
+}
+.zomato-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.location-selector {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  background-color: #2f2c2c;
+}
+
+.live-text {
+  font-size: 18px;
+  color: red;
+  margin-left: 5px;
+  margin-right: 13px;
+margin-bottom: 15px;
+}
+
+.location-selector {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  background-color: #2f2c2c;
+  cursor: pointer;
+  margin-right: auto; /* This will push the location selector to the left */
+}
+
+.location-icon {
+  margin-right: 5px;
+}
+
+.location-text {
+  font-weight: bold;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+}
+
+.list-event {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.event-header-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 30px;
+  padding: 20px;
+  background: linear-gradient(to right, #660066, #0a0a0a);
+  border-radius: 10px;
+  width :50%;
+  
+}
+
+.banner-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.banner-text p {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+.banner-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-image {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  
+  margin-left: 20px;
+}
+.icon-placeholder {
+  font-size: 60px;
+  color: #ffccff;
+}

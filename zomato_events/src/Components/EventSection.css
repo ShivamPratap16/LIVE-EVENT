@@ -1,0 +1,16 @@
+.event-section {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .event-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .event_text{
+    font-size: 30px;
+    margin-bottom: 14px;
+  }

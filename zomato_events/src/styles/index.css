@@ -1,0 +1,9 @@
+/* ------------------------
+   src/styles/index.css
+   Tailwind base styles 
+   ------------------------ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can customize or add any global overrides here */

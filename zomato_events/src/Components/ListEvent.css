@@ -1,0 +1,168 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text */
+  }
+  
+  .zomato-logo {
+    margin-bottom: 20px;
+  }
+  
+  .zomato-logo img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-right: 164px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222 ;/* Dark input background */
+    color: #fff; /* White text */
+    width: 100%; /* Full width */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f00; /* Red background */
+    color: #fff; /* White text */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #c00; /* Darker red on hover */
+  }
+  .event-category-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #080808; /* Light background */
+    color: #b2aeae; /* Dark text */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #636567; /* Blue background */
+    color: #fff; /* White text */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #a1a2a4; 
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .zomato-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .upload-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    border: 2px dashed #b2aeae;
+    border-radius: 10px;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .upload-content {
+    text-align: center;
+    font-size: 16px;
+  }
+  .upload-box:hover {
+    border-color: #fff;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .logo-container1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .zomato-logo1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .live-text1 {
+    font-size: 18px;
+    color: red;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .thank-you-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d2c2c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thank-you-message h2 {
+    margin-top: 0;
+    color: #ffffff;
+  }
+  
+  .thank-you-message p {
+    color: #ffffff;
+  }
