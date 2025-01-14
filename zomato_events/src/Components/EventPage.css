@@ -58,6 +58,12 @@
 .event-info p {
   margin: 10px 0;
   color: #333;
+ 
+}
+.event-info1 p {
+  margin: 10px 0;
+  color: #333;
+  
 }
 .pricing-book-container {
   display: flex;
@@ -154,7 +160,7 @@
   transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
   color: #ccc;
   /* margin-top: -171px; */
-  margin-left: 57px;
+  margin-left: -256px;
 }
 
 .scroll-content.visible {

@@ -6,7 +6,7 @@ const EventCard = ({ title, date, price, image }) => {
   return (
     <div className="event-card1">
       {/* Wrap the image with Link to navigate */}
-      <Link to={`/event/triveni-3mp`}>
+      <Link to={`/event/musicalevent`}>
         <img src={image} alt={title} className="event-image" />
       </Link>
       <div className="event-card-details">
